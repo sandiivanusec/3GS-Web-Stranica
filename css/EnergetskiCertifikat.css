@@ -1,0 +1,74 @@
+.tekst {
+    color: white;
+    height: 43.6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.EnergetskiCertifikati_naslov{
+    color: white;
+    text-align: center;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-family: montserrat;
+}
+
+.naslov_i_tekst{
+    height: calc(100vh - 9.6vh);
+}
+
+.transparent_black_background{
+    opacity: 80%;
+}
+
+
+
+
+@media (max-width: 420px){
+    .tekst{
+        height: 60%;
+    }
+}
+
+@media (max-width: 393px){
+    .EnergetskiCertifikati_naslov{
+        height: 20%;
+        font-size: 1.5em;
+    }
+
+    .prvi_tekst{
+        margin-bottom: 10px;
+    }
+
+    .drugi_tekst{
+        margin-bottom: 10px;
+    }
+
+    .treci_tekst{
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 393px){
+    .EnergetskiCertifikati_naslov{
+        height: 15%;
+        font-size: 1.5em;
+    }
+
+    body{
+        background-color: #211E1B;
+    }
+}
+
+
+
+

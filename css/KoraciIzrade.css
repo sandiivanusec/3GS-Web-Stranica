@@ -1,0 +1,206 @@
+.naslov_koraci_izrade{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: montserrat;
+    font-size: 2em;
+    padding: 2.5%;
+    margin-top: 5%;
+}
+
+.tekst_koraci_izrade{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: montserrat;
+    font-size: 1em;
+    margin-top: 2.5%;
+    padding: 5%;
+}
+
+.tri_oblaka{
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: montserrat;
+    height: 64.5vh;
+    padding-top: 1%;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.tri_oblaka ul {
+	list-style: inside;
+    line-height: 150%;
+}
+
+.broj{
+    border-radius: 5px;
+    background-color: black;
+    opacity: 75%;
+    margin-bottom: 2%;
+    width: 75px;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 30px;
+}
+
+.tekst_1{
+    border-radius: 15px;
+    background-color: black;
+    opacity: 75%;
+}
+
+.tekst_2{
+    border-radius: 15px;
+    background-color: black;
+    opacity: 75%;
+}
+
+.tekst_3{
+    border-radius: 15px;
+    background-color: black;
+    opacity: 75%;
+}
+
+.prvi_oblak{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    width: 900px;
+    margin-bottom: 5%;
+}
+
+.drugi_oblak{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    width: 815px;
+    margin-bottom: 5%;
+}
+
+.treci_oblak{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    width: 915px;
+}
+
+.tekst_1{
+    width: 90%;
+}
+
+.tekst_2{
+    width: 100%;
+}
+
+.tekst_3{
+    width: 90%;
+}
+
+.transparent_black_background{
+    opacity: 50%;
+}
+
+body{
+    background-color: cyan;
+}
+
+.ec_dropdown_linkovi{
+    background-color: white;
+    z-index: 1;
+    border: solid 1px;
+}
+
+.navbar-links li:hover{
+    background-color: cyan;
+}
+
+
+
+
+@media (max-width: 820px){
+    .tri_oblaka{
+        font-size: 0.9em;
+        text-align: start;
+    }
+
+    .prvi_oblak{
+        width: 100%;
+    }
+
+    .drugi_oblak{
+        width: 90%;
+    }
+
+    .treci_oblak{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px){
+    .prvi_oblak{
+        width: 350px;
+    }
+
+    .drugi_oblak{
+        width: 320px;
+    }
+
+    .treci_oblak{
+        width: 357.5px;
+    }
+
+    .tekst_koraci_izrade{
+        margin-bottom: 10%;
+    }
+
+    .naslov_koraci_izrade{
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 320px){
+    .tri_oblaka{
+        font-size: 0.9em;
+        text-align: start;
+    }
+
+    .prvi_oblak{
+        width: 100%;
+    }
+
+    .drugi_oblak{
+        width: 90%;
+    }
+
+    .treci_oblak{
+        width: 100%;
+    }
+}
+
+@media (max-width: 280px){
+    .tri_oblaka{
+        font-size: 0.9em;
+        text-align: start;
+    }
+
+    .prvi_oblak{
+        width: 100%;
+    }
+
+    .drugi_oblak{
+        width: 90%;
+    }
+
+    .treci_oblak{
+        width: 100%;
+    }
+}

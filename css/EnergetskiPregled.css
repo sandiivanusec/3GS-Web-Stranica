@@ -1,0 +1,100 @@
+body{
+    background-color: #3B3B3B;
+}
+
+.naslov_i_tekst{
+    height: calc(100vh - 9.6vh);
+    color: white;
+    text-align: center;
+    font-family: montserrat;
+}
+
+.naslov_energetski_pregled{
+    width: 100%;
+    height: 20%;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.tekst_energetski_pregled{
+    width: 100%;
+    height: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: montserrat;
+    height: 64.5vh;
+    text-align: center;
+    padding-top: 1%;
+    padding: 1px;
+    font-size: 1em;
+    margin-top: 2%;
+}
+
+.tekst_energetski_pregled ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    list-style: initial;
+    line-height: 18px;
+}
+
+.transparent_black_background{
+    opacity: 75%;
+}
+
+
+
+
+@media (max-width: 1024px){
+    .naslov_energetski_pregled{
+        font-size: 3em;
+    }
+
+    .tekst_energetski_pregled{
+        font-size: 1.4em;
+        line-height: 40px;
+        padding: 5%;
+    }
+
+    .tekst_energetski_pregled ul {
+        line-height: 25px;
+    }
+}
+
+
+@media (max-width: 548px){
+    .tekst_energetski_pregled{
+        font-size: 1em;
+        line-height: 18px;
+    }   
+
+    .tekst_energetski_pregled ul{
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 540px){
+    .naslov_energetski_pregled{
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 480px){
+    .tekst_energetski_pregled ul {
+        line-height: 20px;
+    } 
+}
+
+@media (max-width: 320px){
+    .naslov_energetski_pregled{
+        font-size: 1.5em;
+    }
+}
+
+
+
