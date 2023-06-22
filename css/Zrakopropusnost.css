@@ -1,0 +1,113 @@
+body{
+    background-color: teal;
+    color: white;
+}
+
+img{
+    border-radius: 5%;
+}
+    
+.slike_zrakopropusnosti{
+    width:400px;
+    height: auto;
+}
+
+/* .naslov_i_tekst{
+    border: solid 1px yellow;
+} */
+
+.sve{
+    /* border: solid 1px rgb(163, 21, 21); */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sto_je_zrakopropusnost{
+    /* border: solid 1px rgb(0, 255, 76); */
+    width: 75%;
+    height: 20%;
+    margin-top: 5%;
+}
+
+.prva_dva{
+    /* border: solid 1px rgb(63, 12, 65); */
+    margin-top: 5%;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.prvi ol{
+    list-style-type: decimal;
+}
+
+.prvi{
+    /* border: solid 1px cyan; */
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+/* .drugi{
+    border: solid 1px cyan;
+} */
+
+.treci{
+    /* border: solid 1px rgb(0, 255, 0); */
+    width: 50%;
+    display: flex;
+    align-self: center;
+}
+
+.glavni_naslov{
+    /* border: solid 1px rgb(0, 255, 0); */
+    margin-top: 5%;
+    font-size: 2em;
+}
+
+@media (max-width: 1024px){
+    .slike_zrakopropusnosti{
+        width: 200px;
+        height: auto;
+    }   
+}
+
+@media (max-width: 480px){
+    .prva_dva{
+        display: flex;
+        flex-direction: column;
+    }   
+
+    .prvi{
+        order: 2;
+        margin-top: 5%;
+    }
+    
+    .drugi{
+        order: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .slike_zrakopropusnosti{
+        width:300px;
+        height: auto;
+    }
+
+    .treci{
+        order: 1;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+}
+
+@media (max-width: 320px){
+    .slike_zrakopropusnosti{
+        width: 200px;
+        height: auto;
+    }   
+}

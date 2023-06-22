@@ -13,14 +13,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .tekst_energetska_ucinkovitost{
     height: 80%;
     width: 100%;
     font-size: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .transparent_black_background{
     opacity: 80%;
 }
+

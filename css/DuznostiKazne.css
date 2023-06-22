@@ -26,8 +26,11 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     align-items: center;
+
+    padding-top: 5%;
+
 }
 
 .tekst_duznosti_i_kazne ul {
@@ -53,11 +56,6 @@
     }
 }
 
-@media (max-width: 540px){
-    .tekst_duznosti_i_kazne{
-        margin-top: 15%;
-    }
-}
 
 @media (max-width: 480px){
     .tekst_duznosti_i_kazne{
@@ -78,18 +76,18 @@
 
 @media (max-width: 360px){
     .tekst_duznosti_i_kazne{
-        margin-top: 15%;
+        margin-top: 10%;
     }
 }
 
 @media (max-width: 320px){
     .tekst_duznosti_i_kazne{
-        margin-top: 40%;
+        margin-top: 10%;
     }
 }
 
 @media (max-width: 280px){
     .tekst_duznosti_i_kazne{
-        margin-top: 40%;
+        margin-top: 10%;
     }
 }
