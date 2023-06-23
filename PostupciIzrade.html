@@ -3,8 +3,6 @@
 
 <head>
 
-
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,7 +25,8 @@
 
     <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="../css/PostupciIzrade.css" />
+    <link rel="stylesheet" href="../styles.css" />
+    <!--<link rel="stylesheet" href="../css/PostupciIzrade.css" />-->
 
 
 
@@ -82,57 +81,60 @@
 
     </nav>
 
-    <div class="naslov_postupci_izrade">
-        <h1>Postupci izrade</h1>
-    </div>
-
-    <div class="tekst_postupci_izrade">
-        <p>Provodi se energetski pregled. Nakon provedenog energetskog pregleda provodi se vrednovanje prikupljenih
+    <div class="container">
+        <h1 class="text-center">Postupci izrade</h1>
+    
+        <p>
+            Provodi se energetski pregled. Nakon provedenog energetskog pregleda provodi se vrednovanje prikupljenih
             podataka, potrebni izračuni i unos u specijalizirani softver, te izrada izvještaja o izvršenom energetskom
-            pregledu koji se obavezno šalje na nadležno Ministarstvo.</p>
-    </div>
+            pregledu koji se obavezno šalje na nadležno Ministarstvo.
+        </p>
 
-    <div class="tri_oblaka">
-        <div class="prvi_oblak">
-            <div class="broj">1</div>
-            <div class="tekst_1">
-                <ul>
-                    <li>Kontakt s klijentom</li>
-                    <li>Priprema i organizacija energetskog pregleda</li>
-                    <li>Provedba energetskog pregleda zgrade</li>
-                    <li>Obilazak zgrade i određivanje nedostataka, prikupljanje potrebnih ulaznih podataka</li>
-                </ul>
+        <div class="pb-4">
+            <div class="border my-3">
+                <h3 class="mb-2">1. FAZA: <strong class="text-primary">ENERGETSKI PREGLED</strong></h3>
+                <div>
+                    <ul class="list-style-initial">
+                        <li>Kontakt s klijentom</li>
+                        <li>Priprema i organizacija energetskog pregleda</li>
+                        <li>Provedba energetskog pregleda zgrade</li>
+                        <li>Obilazak zgrade i određivanje nedostataka, prikupljanje potrebnih ulaznih podataka</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="border my-3">
+                <h3 class="mb-2">2. FAZA: <strong class="text-primary">VREDNOVANJE PRIKUPLJENIH PODATAKA</strong></h3>
+                <div>
+                    <ul class="list-style-initial">
+                        <li>Razgovor s osobama za dobivanje potrebnih informacija o vođenju i održavanju građevine</li>
+                        <li>Prikupljanje računa za energiju i vodu</li>
+                        <li>Pregled postojeće dokumentacije</li>
+                        <li>Ocjena energetske učinkovitosti zgrade</li>
+                        <li>Izračun energetske i troškovne bilance zgrade</li>
+                        <li>Proračun energetskog razreda zgrada</li>
+                        <li>Svođenje rezultata proračuna na stvarne uvjete eksploatacije i korištenja zgrade te stvarne
+                            klimatske parametre</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="border my-3">
+                <h3 class="mb-2">3. FAZA: <strong class="text-primary">IZDARA IZVJEŠTAJA</strong></h3>
+                <div>
+                    <ul class="list-style-initial">
+                        <li>Prijedlog mjera za poboljšanje energetskih svojstava zgrade prema stvarnom načinu korištenja uz
+                            proračun ulaganja i ušteda</li>
+                        <li>Izvješće o provedenom energetskom pregledu zgrade</li>
+                        <li>Energetski certifikat zgrade</li>
+                        <li>Izvješće o provedenom redovitom pregledu sustava grijanja</li>
+                        <li>Izvješće o provedenom redovitom pregledu sustava hlađenja</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="drugi_oblak">
-            <div class="broj">2</div>
-            <div class="tekst_2">
-                <ul>
-                    <li>Razgovor s osobama za dobivanje potrebnih informacija o vođenju i održavanju građevine</li>
-                    <li>Prikupljanje računa za energiju i vodu</li>
-                    <li>Pregled postojeće dokumentacije</li>
-                    <li>Ocjena energetske učinkovitosti zgrade</li>
-                    <li>Izračun energetske i troškovne bilance zgrade</li>
-                    <li>Proračun energetskog razreda zgrada</li>
-                    <li>Svođenje rezultata proračuna na stvarne uvjete eksploatacije i korištenja zgrade te stvarne
-                        klimatske parametre</li>
-                </ul>
-            </div>
-        </div>
-        <div class="treci_oblak">
-            <div class="broj">3</div>
-            <div class="tekst_3">
-                <ul>
-                    <li>Prijedlog mjera za poboljšanje energetskih svojstava zgrade prema stvarnom načinu korištenja uz
-                        proračun ulaganja i ušteda</li>
-                    <li>Izvješće o provedenom energetskom pregledu zgrade</li>
-                    <li>Energetski certifikat zgrade</li>
-                    <li>Izvješće o provedenom redovitom pregledu sustava grijanja</li>
-                    <li>Izvješće o provedenom redovitom pregledu sustava hlađenja</li>
-                </ul>
-            </div>
 
-        </div>
+    
     </div>
 
     <script src="../script.js" defer></script>

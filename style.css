@@ -64,7 +64,8 @@ a:visited {
     object-fit: cover;
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    /*position: absolute;*/
+    position: fixed;
     top: 0px;
     z-index: -1;
 }
@@ -89,13 +90,17 @@ a:visited {
 
 .naslov h1 {
     z-index: 2;
+    font-size: 3rem;
 }
 
 .transparent_black_background {
     top: 0px;
-    position: absolute;
+    /*position: absolute;*/
+    position: fixed;
     z-index: -1;
     background-color: black;
+    /*background-color: #15181a;*/
+    /*background-color: #171d23;*/
     width: 100%;
     opacity: 50%;
     height: 100vh;

@@ -1,7 +1,7 @@
-body{
+/*body{
     background-color: teal;
     color: white;
-}
+}*/
 
 img{
     border-radius: 5%;
@@ -35,7 +35,7 @@ img{
 .prva_dva{
     /* border: solid 1px rgb(63, 12, 65); */
     margin-top: 5%;
-    width: 75%;
+    /*width: 75%;*/
     display: flex;
     justify-content: space-evenly;
 }

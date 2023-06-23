@@ -1,5 +1,5 @@
 #svc_embd_947{
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
 
 .info_i_forma{
@@ -9,7 +9,7 @@
     justify-content: center;
 
     font-size: 1em;
-    height: 200px;
+    /*height: 200px;*/
 }
 
 .info{
@@ -26,16 +26,16 @@
     width: 60%;
     border-radius: 15px;
     
-    display: flex;
+    /*display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
 
     background-color: black;
     opacity: 75%;
     color: white;
     text-align: center;
-    line-height: 20px;
-    margin-top: 5%;
+    /*line-height: 20px;*/
+    /*margin-top: 5%;*/
 }
 
 .forma{
