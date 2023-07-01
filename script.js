@@ -13,8 +13,26 @@ toggleButton.addEventListener("click", () => {
 });
 
 //Za pokrenuti drugi dropdown
-ec_i_dropdown.addEventListener("click", () => {
-  ec_dropdown_linkovi.classList.toggle("active");
-})
+//ec_i_dropdown.addEventListener("mouseover", () => {
+
+const energetskiCertifikati = document.getElementsByClassName("EnergetskiCertifikati")[0];
+
+energetskiCertifikati.addEventListener("mouseover", () => {
+  ec_dropdown_linkovi.classList.add("active");
+  //ec_dropdown_linkovi.classList.toggle("active");
+});
+energetskiCertifikati.addEventListener("mouseout", () => {
+  ec_dropdown_linkovi.classList.remove("active");
+});
+
+ec_dropdown_linkovi.addEventListener("mouseover", () => {
+  ec_dropdown_linkovi.classList.add("active");
+  //ec_dropdown_linkovi.classList.toggle("active");
+});
+ec_dropdown_linkovi.addEventListener("mouseout", () => {
+  ec_dropdown_linkovi.classList.remove("active");
+  //ec_dropdown_linkovi.classList.toggle("active");
+});
+
 
 

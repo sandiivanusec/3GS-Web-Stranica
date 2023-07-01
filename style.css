@@ -12,13 +12,18 @@ body {
     font-family: montserrat;
 }
 
+header {
+    /*background-color: white;*/
+    background-color: #171d23;
+    border-radius: 0 0 20px 20px;
+    padding: 0.6rem !important;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
     color: black;
-    border-radius: 0 0 20px 20px;
     font-family: montserrat;
 }
 
@@ -26,20 +31,30 @@ body {
     display: flex;
 }
 
+.navbar-links ul li {
+    margin-bottom: 0 !important;
+}
+
 .navbar-links ul li a {
     text-decoration: none;
-    color: black;
-    padding: 1rem;
+    /*color: black;*/
+    color: white;
+    /*padding: 1rem;*/
+    padding: 0.6rem 1rem;
     display: block;
+    /*font-weight: bold;*/
+    transition: all .2s ease-in;
+    font-size: .95rem;
 }
 
 a:visited {
-    color: black;
+    /*color: black;*/
 }
 
-.navbar-links li:hover {
-    background-color: white;
-    border-radius: 0 0 20px 20px;
+.navbar-links a:hover {
+    color: #67aff7;
+    /*background-color: white;*/
+    /*border-radius: 0 0 20px 20px;*/
 }
 
 .hamburger_button {
@@ -98,9 +113,9 @@ a:visited {
     /*position: absolute;*/
     position: fixed;
     z-index: -1;
-    background-color: black;
+    /*background-color: black;*/
     /*background-color: #15181a;*/
-    /*background-color: #171d23;*/
+    background-color: #171d23;
     width: 100%;
     opacity: 50%;
     height: 100vh;
@@ -116,23 +131,31 @@ a:visited {
 }
 
 .ec_dropdown_linkovi {
-    background-color: cyan;
-    border-radius: 0 0 20px 20px;
-}
-
-.ec_dropdown_linkovi {
     display: none;
     position: absolute;
+    border-radius: 0 0 20px 20px;
+    padding: .6rem;
+    /*background-color: white;*/
+    background-color: #171d23;
+}
+
+.ec_dropdown_linkovi li {
+    margin-bottom: 0 !important;
 }
 
 .ec_dropdown_linkovi.active {
     display: block;
-    font-size: 0.8em;
+    /*font-size: 0.8em;*/
+    font-size: 0.9rem;
     z-index: 1;
 }
 
 .logo_link {
-    margin-left: 15px;
+    /*margin-left: 15px;*/
+}
+
+.logo_link img {
+    vertical-align: middle;
 }
 
 

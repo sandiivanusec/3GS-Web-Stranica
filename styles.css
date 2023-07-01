@@ -32,6 +32,13 @@ h3, .h3 {
     font-size: 1.2rem;
 }
 
+.container-fluid {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+}
+
 .container {
     /*max-width: 1360px;*/
     max-width: 992px;
