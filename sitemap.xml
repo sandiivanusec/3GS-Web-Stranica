@@ -9,48 +9,58 @@
 
 <url>
   <loc>https://3gs-inzenjering.com/</loc>
-  <lastmod>2022-10-09T10:40:49+00:00</lastmod>
+  <lastmod>2023-09-16T10:16:58+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://3gs-inzenjering.com/index</loc>
+  <lastmod>2023-09-16T10:16:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://3gs-inzenjering.com/EnergetskiCertifikat</loc>
-  <lastmod>2022-10-09T10:39:33+00:00</lastmod>
+  <lastmod>2023-09-16T10:16:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://3gs-inzenjering.com/PostupciIzrade</loc>
-  <lastmod>2022-10-09T10:42:46+00:00</lastmod>
+  <lastmod>2023-09-16T10:17:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://3gs-inzenjering.com/EnergetskiPregled</loc>
-  <lastmod>2022-10-09T10:40:13+00:00</lastmod>
+  <lastmod>2023-09-16T10:16:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://3gs-inzenjering.com/EnergetskaUcinkovitost</loc>
-  <lastmod>2022-10-09T10:38:40+00:00</lastmod>
+  <lastmod>2023-09-16T10:16:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://3gs-inzenjering.com/DuznostiKazne</loc>
-  <lastmod>2022-10-09T10:37:56+00:00</lastmod>
+  <lastmod>2023-09-16T10:16:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://3gs-inzenjering.com/OtvoreniNatjecaji</loc>
-  <lastmod>2022-10-09T10:42:07+00:00</lastmod>
+  <lastmod>2023-09-16T10:17:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://3gs-inzenjering.com/Usluge</loc>
-  <lastmod>2022-10-09T10:43:33+00:00</lastmod>
+  <lastmod>2023-09-16T10:17:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://3gs-inzenjering.com/Kontakt</loc>
-  <lastmod>2022-10-09T10:41:30+00:00</lastmod>
+  <lastmod>2023-09-16T10:16:59+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://3gs-inzenjering.com/Zrakopropusnost</loc>
+  <lastmod>2023-09-16T10:17:04+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
